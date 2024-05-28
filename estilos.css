@@ -152,6 +152,7 @@ h2,h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 1rem;
 }
 
 .servicio-icono {
@@ -184,4 +185,44 @@ h2,h3 {
     .boton {
         width: auto;
     }
+}
+
+/** Formulario de contacto **/
+.formulario {
+    background-color: var(--gris);
+    width: min(60rem, 100%);
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.formulario fieldset {
+    border: none;
+    color: var(--blanco);
+}
+
+.formulario legend {
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: var(--primario);
+}
+
+.formulario label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.formulario table {
+    width: 100%;
+}
+
+.input-text {
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
 }
